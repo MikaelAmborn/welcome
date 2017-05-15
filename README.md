@@ -1,4 +1,4 @@
-#Welcome App
+# Welcome App
 This repository contains the Welcome App coding challenge.
 
 ## Design choices
