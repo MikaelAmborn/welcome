@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.Collections;
 
-import static com.amborn.Triangle.CreateRightAngledTriangle;
+import static com.amborn.Triangle.createRightAngledTriangle;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -21,7 +21,7 @@ public class ShapeCalculatorTest {
                 is(5.0));
         assertThat(ShapeCalculator.areaOf(Arrays.asList(new Rectangle(1.0),
                                                         new Rectangle(2.0),
-                                                        CreateRightAngledTriangle(1.0,2.0,2.0))),
+                                                        createRightAngledTriangle(1.0,2.0,2.0))),
                 is(6.0));
     }
 }

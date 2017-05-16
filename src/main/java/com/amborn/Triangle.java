@@ -22,7 +22,7 @@ public class Triangle implements Shape {
      * @param side3 The length of the third side.
      * @return A new Triangle
      */
-    public static Triangle CreateRightAngledTriangle(Double side1, Double side2, Double side3) {
+    public static Triangle createRightAngledTriangle(Double side1, Double side2, Double side3) {
         return new Triangle(side1, side2, side3, NOT_SET, NOT_SET);
     }
 
@@ -36,7 +36,7 @@ public class Triangle implements Shape {
      * @param height The lenght of the height of the triangle.
      * @return A new Triangle
      */
-    public static Triangle CreateTriangle(Double side1, Double side2, Double side3, Double base, Double height) {
+    public static Triangle createTriangle(Double side1, Double side2, Double side3, Double base, Double height) {
         return new Triangle(side1, side2, side3, base, height);
     }
 
